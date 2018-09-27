@@ -11,7 +11,7 @@ git config --global user.email "email"
 #### 创建新版本库
 
 ```shell
-git clone git@github.com:MindZhibin/AntDesignLearn.git.git
+git clone https://github.com/MindZhibin/AntDesignLearn
 cd funxinmobi
 touch README.md
 git add README.md
@@ -24,7 +24,7 @@ git push -u origin master
 ```shell
 cd existing_folder
 git init
-git remote add origin git@github.com:MindZhibin/AntDesignLearn.git.git
+git remote add origin https://github.com/MindZhibin/AntDesignLearn
 git add .
 git commit -m "Initial commit"
 git push -u origin master
@@ -36,7 +36,7 @@ git push -u origin master
 ```shell
 cd existing_repo
 git remote rename origin old-origin
-git remote add origin git@github.com:MindZhibin/AntDesignLearn.git.git
+git remote add origin https://github.com/MindZhibin/AntDesignLearn
 git push -u origin --all
 git push -u origin --tags
 ```
